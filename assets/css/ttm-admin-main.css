@@ -1,0 +1,202 @@
+/*
+* Style for shortcode input
+*/
+.ttm-shortcode-wraper .cmb-row {
+	padding: 0 !important;
+	margin: 0 !important
+}
+.ttm_display_shortcode {
+	margin: 10px 0;
+	width: 100%
+}
+.ttm-tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-top: 0;
+}
+.ttm-tab a {
+	background-color: inherit;
+	float: left;
+	border-right: 1px solid #fff;
+	outline: none;
+	cursor: pointer;
+	padding:12px 25px;
+	transition: 0.3s;
+	font-size: 16px;
+	color: #000;
+}
+.ttm-tab a:last-child {
+	border-right: 0
+}
+.ttm-tab a:hover {
+	background-color: #fff;
+	color: #444
+}
+.ttm-tab a.active {
+    background-color: #0473AA;
+    color: #fff;
+}
+
+.ttm-tabcontent .ttm-option-label {
+	width: 250px
+}
+
+#ttm_before_after_image_thumbnail,
+#ttm_before_image_thumbnail,
+#ttm_after_image_thumbnail,#ttm_third_image_thumbnail,#ttm_second_image_thumbnail,#ttm_first_image_thumbnail {
+	max-width: 100px;
+	display: block;
+	margin-top:15px;
+}
+
+.ttm-option-table tr {
+	border-bottom: 1px solid #e7e7e7;
+	padding:15px 0 9px 0px !important;
+	display: block;
+}
+
+.ttm-option-table tr:last-child {
+	border-bottom: 0;
+}
+
+.ttm-option-label label {
+	font-weight: 600;
+	    cursor: unset;
+}
+
+/* HIDE RADIO */
+input[name=ttm_image_styles],input[name=ttm_before_after_style] {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* IMAGE STYLES */
+input[name=ttm_image_styles] + label img,input[name=ttm_before_after_style] + label img {
+	cursor: pointer;
+}
+
+/* CHECKED STYLES */
+input[name=ttm_image_styles]:checked + label img,input[name=ttm_before_after_style]:checked + label img {
+	outline: 2px solid #0473AA;
+}
+
+ul.orientation-style li {
+	display: inline-block;
+	margin-left: 15px
+}
+ul.ttm-before-after-style li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.ttm_button {
+	border: 0;
+	padding: 8px 10px;
+	background: #0473AA;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	max-height: 35px;
+	transition: 0.5
+}
+
+.ttm_button:hover {
+	opacity: 0.9
+}
+
+.ttm-option-content input[type=text] {
+	padding: 7px;
+	border-radius: 5px;
+	height: 35px
+}
+
+.ttm-option-content p {
+	margin: 0;
+}
+
+/* Gallery shortcode generator CSS */
+@media (min-width: 783px) {
+	.ttm-wrap {
+		display: flex;
+	}
+}
+
+.img-alt-tag,.ttm-img-link {
+    margin-top: 15px;
+}
+.img-alt-tag span,.ttm-img-link span {
+    margin-right: 15px;
+    font-weight: 500;
+}
+.img-alt-tag input,.ttm-img-link input {
+    width: 285px;
+}
+/* Style the buttons inside the ttm-tab */
+.ttm-setting-tab a {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	  color: #fff;
+	  border-right: 1px solid #fff
+  }
+  .ttm-setting-tab a:last-child {
+	  border-right: 0
+  }
+  /* Change background color of buttons on hover */
+  .ttm-setting-tab a:hover {
+	background-color: #fff;
+	  color: #444
+  }
+  .ttm-setting-tab {
+	background: #0473AA;
+	width: 100%;
+	overflow: hidden;
+}
+  .ttm-setting-tab a.active {
+	background-color: #fff;
+	  color: #444
+  }
+  .ttm-tabcontent {
+	display: none;
+	padding: 6px 12px;
+	 background-color: #fff
+}
+#ttm-img-metabox .ttm-option-content .wp-picker-container .button{
+    min-height: 30px;
+    margin: 0 6px 6px 0;
+    font-size: 11px;
+}
+#ttm-img-metabox .ttm-option-content .wp-picker-container .button:not(.wp-picker-clear){
+	padding: 0 0 0 30px;
+}
+#ttm-img-metabox .ttm-option-content .wp-picker-container span.wp-color-result-text{
+    background: #f6f7f7;
+    border-radius: 0 2px 2px 0;
+    border-left: 1px solid #c3c4c7;
+    color: #50575e;
+    display: block;
+    line-height: 2.54545455;
+    padding: 0 6px;
+    text-align: center;
+}
+
+td.after_image img,
+td.before_image img {
+    max-width: 75px;
+    height: auto;
+}
+.ttm-option-table {
+    width: 100%;	
+}
+
+#ttm-img-metabox .inside {
+    margin: 0px;
+	padding:0px;
+}

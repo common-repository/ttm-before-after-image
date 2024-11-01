@@ -1,0 +1,88 @@
+.ttm-before-after-image-vertical .default .ttm-before-label:before,
+.ttm-before-after-image-vertical .default .ttm-after-label:before {
+	padding: 0 !important;
+}
+.ttm-before-label,
+.ttm-after-label {
+	background: none !important
+}
+.ttm-before-after-image-vertical .ttm-before-label:before,
+.ttm-before-after-image-vertical .ttm-after-label:before {
+	width: 120px !important;
+	left: 0 !important;
+	right: 0 !important;
+	margin: 0 auto !important;
+}
+.ttm-before-after-image-vertical .ttm-before-label:before,
+.ttm-before-after-image-vertical .ttm-after-label:before {
+	margin-left: -74px;
+}
+.ttm-before-after-image-vertical .default .ttm-before-label:before,
+.ttm-before-after-image-vertical .default .ttm-after-label:before {
+	padding: 0 !important;
+	margin-left: -45px;
+}
+.ttm-handle-wrapper {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.25);
+	height: 10px;
+	margin-right: 0;
+	z-index: 10;
+	position: absolute;
+	bottom: -22px;
+	border-radius: 30px;
+	border-radius: 30px;
+}
+.handle-trnasf {
+	width: 37px;
+	height: 37px;
+	border: 3px solid #fff;
+	margin-top: 0;
+	margin-left: -21px;
+	transform: rotate(45deg);
+}
+.ttm-before-after-wrapper.before-after-image-horizontal .handle-trnasf:before {
+	position: absolute;
+	content: '';
+	top: 21px;
+	right: 21px;
+	border: 6px inset transparent;
+	border-right: 6px solid #fff;
+	transform: rotate(-45deg);
+}
+.ttm-before-after-wrapper.before-after-image-horizontal .handle-trnasf:after {
+	position: absolute;
+	content: '';
+	top: 4px;
+	right: 4px;
+	border: 6px inset transparent;
+	border-left: 6px solid #fff;
+	transform: rotate(-45deg);
+}
+.elementor-widget-container .ttm-before-after-wrapper.before-after-image-horizontal .handle-trnasf:after {
+	top: 1px;
+	right: 1px;
+}
+.elementor-widget-container .ttm-before-after-wrapper.before-after-image-horizontal .handle-trnasf:before {
+	top: 23px;
+	right: 23px;
+}
+.elementor-widget-container .ttm-before-after-image-right-arrow {
+	right: 50%;
+	margin-right: -17px;
+}
+
+.ttm-before-after-image-container {
+	position: relative;
+}
+.ttm-before-after-image-container img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+.ttm-before-after-image-container img {
+	margin: 0;
+}

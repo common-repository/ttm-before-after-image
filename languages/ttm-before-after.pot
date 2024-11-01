@@ -1,0 +1,207 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TTM - Before After Image\n"
+"POT-Creation-Date: 2024-10-04 16:52+0530\n"
+"PO-Revision-Date: 2016-04-01 11:48+0530\n"
+"Last-Translator: \n"
+"Language-Team: ThemetechMount Team <themetechmount@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;"
+"_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/action.php:36
+msgid "Title"
+msgstr ""
+
+#: ../admin/action.php:37 ../admin/ttm-metabox.php:49
+msgid "Before Image"
+msgstr ""
+
+#: ../admin/action.php:38 ../admin/ttm-metabox.php:65
+msgid "After Image"
+msgstr ""
+
+#: ../admin/action.php:39
+msgid "Shortcode"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:33
+msgid "Content"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:34
+msgid "Slider Style"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:35
+msgid "Extra Options"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:59 ../admin/ttm-metabox.php:74
+msgid "Alter Text: "
+msgstr ""
+
+#: ../admin/ttm-metabox.php:81
+msgid "Select Direction"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:100
+msgid "Before Label Text"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:110
+msgid "After Label Text"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:123
+msgid "Offset Value"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:140
+msgid "Before Label Background"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:149
+msgid "Before Text Color"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:158
+msgid "After Label Background"
+msgstr ""
+
+#: ../admin/ttm-metabox.php:167
+msgid "After Text Color"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:18 ../custom-post-types/tm-before-after.php:19
+msgctxt "ttm-before-after"
+msgid "TTM Before After Image"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:20
+msgid "Add New"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:21
+msgid "Add New Slider"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:22
+msgid "New Slider"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:23
+msgid "Edit Slider"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:24
+msgid "View Slider"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:25
+msgid "All Sliders"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:26
+msgid "Search Sliders"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:27
+msgid "No slider found."
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:28
+msgid "No slider found in Trash."
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:44
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:45
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:46
+msgid "Category"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:47
+msgid "All Items"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:48
+msgid "Parent Item"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:49
+msgid "Parent Item:"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:50
+msgid "New Item Name"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:51
+msgid "Add New Item"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:52
+msgid "Edit Item"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:53
+msgid "Update Item"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:54
+msgid "View Item"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:55
+msgid "Separate items with commas"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:56
+msgid "Add or remove items"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:57
+msgid "Choose from the most used"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:58
+msgid "Popular Items"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:59
+msgid "Search Items"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:60
+msgid "Not Found"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:61
+msgid "No items"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:62
+msgid "Items list"
+msgstr ""
+
+#: ../custom-post-types/tm-before-after.php:63
+msgid "Items list navigation"
+msgstr ""
